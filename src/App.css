@@ -1,0 +1,38 @@
+.volunteer {
+    animation: scrollx 30s linear infinite;
+}
+
+@keyframes scrollx {
+    from {
+        left: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+/* Define a simple animation */
+@keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .animated-text {
+    /* Apply animation properties */
+    animation: slideInFromTop 1s ease-in-out;
+    /* Maintain opacity after animation */
+    opacity: 1;
+  }
+  
+
+  
+
+  
